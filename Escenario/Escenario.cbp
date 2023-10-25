@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Escenario" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Escenario" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Escenario" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="include/Arbol.h" />
+		<Unit filename="include/Camioneta.h" />
+		<Unit filename="include/Carro.h" />
+		<Unit filename="include/Casa.h" />
+		<Unit filename="include/Cilindro.h" />
+		<Unit filename="include/Escenario.h" />
+		<Unit filename="include/Matriz.h" />
+		<Unit filename="include/Nube.h" />
+		<Unit filename="include/Operador.h" />
+		<Unit filename="include/Piramide.h" />
+		<Unit filename="include/Prisma.h" />
+		<Unit filename="include/Sol.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Arbol.cpp" />
+		<Unit filename="src/Camioneta.cpp" />
+		<Unit filename="src/Carro.cpp" />
+		<Unit filename="src/Casa.cpp" />
+		<Unit filename="src/Cilindro.cpp" />
+		<Unit filename="src/Escenario.cpp" />
+		<Unit filename="src/Matriz.cpp" />
+		<Unit filename="src/Nube.cpp" />
+		<Unit filename="src/Operador.cpp" />
+		<Unit filename="src/Piramide.cpp" />
+		<Unit filename="src/Prisma.cpp" />
+		<Unit filename="src/Sol.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
